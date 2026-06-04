@@ -82,3 +82,31 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+/*
+  PSEUDO CLASS
+
+  基本的に子要素がすべて同じ要素であるようなもの
+  ul, ol などに利用するのが基本
+  tableのtbody部分とかそういうの
+*/
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/*2, odd, even */
+li:nth-child(odd) {
+  color: red;
+}
+
+article p:last-child {
+  color: green;
+}
