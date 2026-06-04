@@ -110,3 +110,30 @@ li:nth-child(odd) {
 article p:last-child {
   color: green;
 }
+
+/* Styling hyperlinks using pseudo class */
+/* a {
+  color: #1098ad;
+} */
+
+/* link pseudo class */
+/* LVHA: Link Visited Hover Active */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline wavy orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
