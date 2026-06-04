@@ -94,22 +94,10 @@ aside {
   ul, ol などに利用するのが基本
   tableのtbody部分とかそういうの
 */
-li:first-child {
-  font-weight: bold;
-}
-
-li:last-child {
-  font-style: italic;
-}
-
-/*2, odd, even */
-li:nth-child(odd) {
-  color: red;
-}
-
-article p:last-child {
-  color: green;
-}
+/* li:first-child { font-weight: bold; }
+li:last-child { font-style: italic; }
+li:nth-child(odd) { color: red; }
+article p:last-child { color: green; } */
 
 /* Styling hyperlinks using pseudo class */
 /* a {
