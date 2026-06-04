@@ -4,3 +4,6 @@ vscode-setup.md
 README.md/
 
 section2/
+*.jpg
+*.png
+.prettierrc
