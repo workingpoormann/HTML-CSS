@@ -1,5 +1,24 @@
+/*
+  Universal Selector 全ての要素に適用される
+  継承されているわけではなく単純に全要素に適用してるだけ
+  優先度は一番低い
+*/
+* {
+}
+
 body {
-  /* background-color: orangered; */
+  /*
+    Inheritance :
+      (基本的には) "テキストに関するProperty" を子要素に継承する
+  */
+  font-family: sans-serif;
+
+  /*
+    font-family font-size, font-weight, font-style,
+    color line-height, letter-spacing, text-align, text-transform,
+    text-shadow, list-style ...ほかにも山ほど
+  */
+  border-top: 5px solid #1098ad;
 }
 
 h1,
@@ -124,4 +143,14 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+/* nav a:link,
+nav p {
+  font-size: 100px;
+} */
+
+/* nav 以下の要素すべてに font-size が適用される */
+nav {
+  font-size: 18px;
 }
