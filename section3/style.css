@@ -60,9 +60,9 @@ li {
   font-size: 18px;
 }
 
-#copyright {
-  font-size: 16px;
-}
+/* #copyright { font-size: 16px; color: red; }
+.copyright { color: blue; }
+.copyright-text { color: yellow !important; } */
 
 .related-author {
   font-size: 18px;
