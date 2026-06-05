@@ -187,6 +187,23 @@ a:active {
   height: auto;
 }
 
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+
+  display: inline-block;
+
+  background-color: #444444;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
 /* nav 以下の要素すべてに font-size が適用される */
 nav {
   font-size: 18px;
