@@ -223,3 +223,25 @@ button {
   bottom: 50px;
   right: 50px;
 }
+
+.row {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+article {
+  flex: 1;
+  /* flex-grow: 1 と同義 */
+  margin-bottom: 60px;
+}
+
+aside {
+  /* glow shrink basis */
+  /* grow: 余白を占める割合 flex-grow: 1; */
+  /* shrink:0 縮む割合; flex-shrink: 0; */
+  /* basis: ~px 確保しろ flex-basis: 300px; */
+
+  /* 小さくなれ 縮むな 300px確保しろ */
+  flex: 0 0 300px;
+}
