@@ -17,6 +17,7 @@
 		}
 		.el--3 {
 			background-color: green;
+			height: 150px;
 		}
 		.el--4 {
 			background-color: goldenrod;
@@ -42,7 +43,7 @@
 			margin: 20px;
 
 			/* CSS GRID */
-			display: grid;
+			display: none;
 			grid-template-columns: 200px 200px 100px 100px;
 			grid-template-rows: 200px 100px;
 			/* grid-gap でも可 */
@@ -59,7 +60,7 @@
 			margin: 20px;
 
 			/* CSS GRID */
-			display: grid;
+			display: none;
 			/* fr = fraction
       余ったスペースを指定した割合で埋める */
 			/* auto: 埋める */
@@ -98,17 +99,36 @@
 			/* STARTER */
 			font-family: sans-serif;
 			background-color: black;
-			font-size: 20px;
+			font-size: 40px;
 			margin: 20px;
 
-			width: 1000px;
+			width: 700px;
 			height: 600px;
 
 			/* CSS GRID */
-			display: none;
+			display: grid;
+			grid-template-columns: 125px 200px 125px;
+			grid-template-rows: 250px 100px;
+			gap: 50px;
+
+			/* コンテナ自体の整列（移動） */
+			justify-content: center;
+			align-content: center;
+			/* align-content: start; */
+			/* align-content: space-between; */
+
+			/* セル内の整列 */
+			align-items: center; /* default: stretch */
+			justify-items: center; /* start, end, ... */
+		}
+
+		.container--3 .el--3 {
+			align-self: end;
+			justify-self: start;
 		}
 		</style>
 	</head>
+
 	<body>
 		<div class="container--1">
 			<div class="el el--1">(1) HTML</div>
