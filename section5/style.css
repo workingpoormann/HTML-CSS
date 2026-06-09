@@ -107,8 +107,8 @@ img {
 /* FEATURES */
 .features-icon {
   stroke: #087f5b;
-  height: 32px;
   width: 32px;
+  height: 32px;
   margin-bottom: 16px;
 }
 
@@ -166,6 +166,10 @@ h3 {
 }
 
 .chair-icon {
+  stroke: #087f5b;
+  /* fill: #087f5b; */
+  width: 24px;
+  height: 24px;
 }
 
 .chair-price {
