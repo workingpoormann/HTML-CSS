@@ -5,15 +5,13 @@ SPACING SYSTEM (px)
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
-FONT SIZE:
-  18 16 14
+FONT SIZE: 18 16 14
 */
 
 /* 
 Colors
   Main: #087f5b
   Grey: #343a40
-
 */
 
 * {
@@ -23,7 +21,7 @@ Colors
 }
 
 /* ------------------------ */
-/* GENERAL STYLES */
+/* GENERAL STYLES           */
 /* ------------------------ */
 body {
   font-family: "Inter", sans-serif;
@@ -79,7 +77,7 @@ h2 {
 }
 
 /* ------------------------ */
-/* COMPONENT STYLES */
+/* COMPONENT STYLES         */
 /* ------------------------ */
 
 /* HEADER */
@@ -108,6 +106,10 @@ img {
 
 /* FEATURES */
 .features-icon {
+  stroke: #087f5b;
+  height: 32px;
+  width: 32px;
+  margin-bottom: 16px;
 }
 
 .features-title {
