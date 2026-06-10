@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey-color: #343a40;
+  --green-color: #087f5b;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--grey-color);
+  line-height: 1;
+  margin-bottom: 86px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  margin-top: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  border: 1px solid var(--green-color);
+  font-weight: 500;
+  background-color: #ffffff;
+
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #087f5b;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  stroke: var(--green-color);
+}
+
+.btn:hover .btn-icon {
+  stroke: #ffffff;
+}
+
+.btn-active {
+  background-color: #087f5b;
+  color: #ffffff;
+}
+
+/* lvha */
+.page-link:link,
+.page-link:visited {
+  font-size: 18px;
+  height: 36px;
+  width: 36px;
+  text-decoration: none;
+  border: none;
+  border-radius: 50%;
+  color: #1a1818;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-link:hover,
+.page-link:active,
+.page-link.page-current {
+  background-color: #087f5b;
+  color: #ffffff;
+}
