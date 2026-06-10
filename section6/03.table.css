@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey-color: #343a40;
+  --green-color: #087f5b;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--grey-color);
+  line-height: 1;
+  background-color: var(--grey-color);
+}
