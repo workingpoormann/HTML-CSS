@@ -53,14 +53,3 @@ body {
   font-weight: 400;
   color: #555555;
 }
-
-.test {
-  /* width: 100%; */
-  /* max-width: 1000px; maxでもwidth 100pxだよ */
-  background-color: blue;
-  color: #ffffff;
-  max-width: 50rem;
-  /* 1rem  = 16px = 500 rem */
-  font-size: 2rem;
-  padding: 4rem;
-}
